@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Kanit:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="player">Welcome Player</h1>
+    <h2 id="name">What is your name?</h2>
+    <form id="login-form" class="hidden">
+        <input  
+            required
+            maxlength="15"
+            type="text"
+            placeholder="Enter name"
+            style="border: none; background: transparent; border-bottom: 2.5px solid; font-weight: 100; border-color: white; color:white";
+        />
+    </form>
+
+    <form id="todo-form" class="hidden">
+        <input type="text" placeholder="Today's plan" size=50 
+        required style="border: none; background: transparent; border-bottom: 2.5px solid; font-weight: 100; border-color: white; color:white">
+    </form>
+
+    <ul id="todo-list">
+        
+    </ul>
+
+    <h1 id="greeting" class="hidden"></h1>
+    <h1 id="clock">00:00:00</h1>
+
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+
+    <audio id="music" src="C:\Users\hyun\Desktop\nomad_project\img\songs.mp3" controls="controls">
+    <script src="js/login.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/todo.js"></script>
+</body>
+</html>
