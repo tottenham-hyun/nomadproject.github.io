@@ -1,0 +1,116 @@
+body{
+    background-size: 100% auto;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+#clock{
+    position:fixed;
+    font-size: 90px;
+    opacity: 0.3;
+    right:0.5cm;
+    top:0.8cm;
+}
+.hidden{
+    display: none;
+}
+
+#player{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 48px;
+    margin-top: 350px;
+}
+
+#name{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 30px;
+}
+
+#login-form{
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    font-size: 30px;
+}
+
+#login-form input::placeholder{
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#greeting{
+    opacity: 0.8;
+    text-align: center;
+    font-size: 80px;
+    position:fixed;
+    left:17cm;
+    top:2cm;
+    animation: fadeIn 5s;
+   -webkit-animation: fadeIn 5s;
+   -moz-animation: fadeIn 5s;
+   -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+#weather{
+    position:fixed;
+    right:1.5cm;
+    top:0.4cm;
+    font-size: 20px;
+}
+
+#music{
+    position:fixed;
+    right:0.4cm;
+    top:1.5cm;
+}
+
+#todo-form{
+  position: fixed;
+  text-align: center;
+  justify-content: center;
+  align-items:center;
+  font-size: 100px;
+  left:20cm;
+}
+
+#todo-form input::placeholder{
+  color: white;
+  font-size: large;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
